@@ -1,0 +1,15 @@
+{
+  "name": "mineserver-agent",
+  "version": "1.0.0",
+  "description": "MineServer background agent for remote server management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pack": "pkg index.js --targets node18-win-x64 --output mineserver-agent.exe"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "archiver": "^6.0.0",
+    "extract-zip": "^2.0.0"
+  }
+}
